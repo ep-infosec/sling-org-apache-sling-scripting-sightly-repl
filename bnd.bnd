@@ -1,0 +1,4 @@
+Sling-Initial-Content: SLING-INF/apps/repl/components/repl;overwrite:=true;path:=/apps/repl/components/repl,\
+    SLING-INF/content/htl;overwrite:=true;path:=/content/htl,\
+    SLING-INF/etc/clientlibs/repl;overwrite:=true;path:=/etc/clientlibs/repl
+Require-Capability:    io.sightly; filter:="(&(version>=1.0)(!(version>=2.0)))"
